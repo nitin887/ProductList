@@ -1,0 +1,27 @@
+# Root .gitignore for the repository
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Java / Maven
+**/target/
+product/target/
+*.class
+*.jar
+
+# Logs
+logs/
+product/logs/
+*.log
+
+# Maven wrapper
+.mvn/
+
+# IDE files
+*.iml
+
+# Ignore local settings files
+*.local
